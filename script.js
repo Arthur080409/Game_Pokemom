@@ -3,7 +3,10 @@ const imagens = [
     "bulbasaur.webp",
     "charmander.webp",
     "pikachu.webp",
-    "squirtle.webp"
+    "squirtle.webp",
+    "gengar_pk.webp",
+    "exeggutor.webp",
+    "magnamite.webp"
   ];
   
   let i = 0;

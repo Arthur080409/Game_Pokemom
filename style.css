@@ -19,7 +19,7 @@ body{
 /* Pokémon dentro do visor */
 .pokemon{
   position:absolute;
-  top:145px;   /* ajuste fino */
+  top:250px;   /* ajuste fino */
   left:130px;  /* ajuste fino */
   width:340px;
   height:auto;
@@ -38,14 +38,36 @@ body{
   outline:2px dashed #08f;
   cursor:pointer;
 }
-.ctrl--left{ left:55px; bottom:95px; }
-.ctrl--right{ left:125px; bottom:95px; }
+.ctrl--left{ 
+  left:55px; 
+  bottom:95px; 
+}
+.ctrl--right{ 
+  left:125px; 
+  bottom:95px; 
+}
 
 /* Responsivo opcional */
 @media (max-width:650px){
-  .pokedex{ width:90vw; height:137vw; }
-  .pokemon{ top:22%; left:21.5%; width:56%; }
-  .ctrl{ width:7%; height:7%; }
-  .ctrl--left{ left:26.5%; bottom:10.5%; }
-  .ctrl--right{ left:36.5%; bottom:10.5%; }
+  .pokedex{
+    width:90vw; 
+    height:137vw;
+  }
+  .pokemon{ 
+    top:22%; 
+    left:21.5%; 
+    width:56%; 
+  }
+  .ctrl{ 
+    width:7%; 
+    height:7%; 
+  }
+  .ctrl--left{ 
+    left:26.5%; 
+    bottom:10.5%; 
+  }
+  .ctrl--right{ 
+    left:36.5%; 
+    bottom:10.5%; 
+  }
 }
