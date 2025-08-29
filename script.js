@@ -55,19 +55,19 @@ const pokemons = [
   },
   {
     nome: "Eevee ",
-    imagem: "/img/  .webp",
+    imagem: "/img/eevee.webp",
     tipo: "normal",
     descricao: "Sua capacidade de evoluir para muitas formas permite que ele se adapte de forma suave e perfeita a qualquer ambiente."
   },
   {
     nome: "Rattata",
-    imagem: "/img/  .webp",
+    imagem: "/img/rattata.webp",
     tipo: "normal",
     descricao: "Mastiga qualquer coisa com suas presas. Se você vir um, pode ter certeza de que outros 40 vivem na área."
   },
    {
     nome: "Clefairy",
-    imagem: "/img/  .webp",
+    imagem: "/img/clarfairy.webp",
     tipo: "fada",
     descricao: "Em noites de lua cheia, Clefairy se reúne de todos os lugares e dança. O banho de luar os faz flutuar."
   },
