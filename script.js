@@ -49,7 +49,7 @@ const pokemons = [
   },
   {
     nome: "Primape",
-    imagem: "/img/primape.webp",
+    imagem: "/img/primeape.webp",
     tipo: "Lutador",
     descricao: "Seus golpes ficam cada vez mais fortes conforme perde a calma, tornando-o imprevisível. Um lutador bruto que não recua diante de nada."
   },
