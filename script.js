@@ -19,19 +19,19 @@ const pokemons = [
   },
   {
     nome: "charmander",
-    imagem: "/img/  .webp",
+    imagem: "/img/charmander.webp",
     tipo: "Fogo",
     descricao: "obviamente, prefere lugares quentes. se ele pegar chuva, jorra vapor a ponta da sua cauda."
   },
   {
     nome: "lapras",
-    imagem: "/img/  .webp",
+    imagem: "/img/lapras.webp",
     tipo: "Água/Ice",
     descricao: "Esses pokemon foi tão caçado, que está à beira da extinção. Ele serve de barca e ajuda pessoas a atravessar rios e oceanos."
   },
   {
     nome: "dratini",
-    imagem: "/img/  .webp",
+    imagem: "/img/dratini.webp",
     tipo: "Dragão",
     descricao: "Foi considerado Pokemon mitologico até recentemente, quando uma pequena colônia deles foi encontrada vivendo debaixo d'água"
   },
