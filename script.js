@@ -37,19 +37,19 @@ const pokemons = [
   },
   {
     nome: "Abra",
-    imagem: "/img/  .webp",
+    imagem: "/img/Abra.webp",
     tipo: "Psíquico",
     descricao: "domina o teletransporte para escapar e surpreender o inimigo. É peça-chave em batalhas inteligentes, vencendo pela mente e não pela força."
   },
   {
     nome: "Squartl",
-    imagem: "/img/  .webp",
+    imagem: "/img/squartl.webp",
     tipo: "Água",
     descricao: "Seus jatos d'água têm grande impacto, e sua concha funciona como defesa natural. Um parceiro ágil que se adapta a qualquer situação."
   },
   {
-    nome: "Praimape",
-    imagem: "/img/  .webp",
+    nome: "Primape",
+    imagem: "/img/primape.webp",
     tipo: "Lutador",
     descricao: "Seus golpes ficam cada vez mais fortes conforme perde a calma, tornando-o imprevisível. Um lutador bruto que não recua diante de nada."
   },
