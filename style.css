@@ -1,4 +1,6 @@
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box
+}
 body{
   margin:0;
   min-height:100vh;
@@ -13,7 +15,7 @@ body{
   position:relative;
   width:600px;
   height:913px; /* ajuste se sua pokedex.webp tiver outra altura */
-  background:url("pokedex.webp") center/contain no-repeat;
+  background:url("/img/pokedex.webp") center/contain no-repeat;
 }
 
 /* Pokémon dentro do visor */
@@ -35,7 +37,6 @@ body{
   z-index:3;
   background:rgba(0,0,0,.15); /* deixe visível p/ teste, depois mude p/ opacity:0 */
   border:none;
-  outline:2px dashed #08f;
   cursor:pointer;
 }
 .ctrl--left{ 
@@ -61,13 +62,79 @@ body{
   .ctrl{ 
     width:7%; 
     height:7%; 
+    
   }
   .ctrl--left{ 
     left:26.5%; 
     bottom:10.5%; 
+    
   }
   .ctrl--right{ 
     left:36.5%; 
     bottom:10.5%; 
   }
+}
+
+@font-face {
+  font-family: 'PokemonClassic';
+  src: url('font/Pokemon Classic.ttf') format('truetype');
+}
+.nome {
+  position: absolute;
+  top: 650px;   
+  left: 50px;
+  width: 350px;
+  color: #000; 
+  font-family: 'PokemonClassic', monospace;
+  text-align: left;
+  padding: 8px;
+  border-radius: 8px;
+}
+.tipo{
+  position: absolute;
+  top: 663px;   
+  left: 446px;
+  width: 350px;
+  color: #000; 
+  font-family: 'PokemonClassic', monospace;
+  text-align: left;
+  padding: 8px;
+  border-radius: 8px;
+}
+p.tipo{
+  width: 250px;
+  left: 310px;
+  text-align:end;
+
+}
+.descricao{
+  position: absolute;
+  width: 350px;
+  color: #000; 
+  font-family: 'PokemonClassic', monospace;
+  text-align: left;
+  padding: 8px;
+  border-radius: 8px;
+}
+p.descricao{
+  
+  overflow-y: scroll;
+  width: 265px;
+  height: 122px;
+  left: 187px;
+  top:725px;
+  margin-bottom: 100px;
+  
+}
+.descricao::-webkit-scrollbar {
+  width: 1px;
+}
+
+.descricao::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.descricao::-webkit-scrollbar-thumb {
+  background: transparent; /* transparente totalmente */
+  border-radius: 4px;
 }
