@@ -73,19 +73,19 @@ const pokemons = [
   },
    {
     nome: "Beedrill",
-    imagem: "/img/  .webp",
+    imagem: "/img/Beedrill.webp",
     tipo: "Inseto / Veneno",
     descricao: "Beedrill é feroz e rápido, com agulhas afiadas em seus braços que atacam com precisão. Vive em colmeias e protege ferozmente seu território."
   },
    {
     nome: "Bulbasaur",
-    imagem: "/img/  .webp",
+    imagem: "/img/Bulbasaur.webp",
     tipo: "Planta / Veneno",
     descricao: "Bulbasaur tem uma semente nas costas que cresce com ele. Ele absorve energia solar para fortalecer seus ataques e é conhecido por sua lealdade aos treinadores."
   },
    {
     nome: "Onix",
-    imagem: "/img/  .webp",
+    imagem: "/img/Onix.webp",
     tipo: "Pedra / Terra",
     descricao: "Onix é um enorme Pokémon serpente feito de rochas. Sua força e tamanho o tornam quase impenetrável, mas ele se move surpreendentemente rápido em cavernas e montanhas."
   },
