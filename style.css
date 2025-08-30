@@ -7,7 +7,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  background-image:url("/img/fundo_tela.jpg");
+  background-image:url("img/fundo_tela.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -17,7 +17,7 @@ body{
   position:relative;
   width:600px;
   height:913px; /* ajuste se sua pokedex.webp tiver outra altura */
-  background:url("/img/pokedex.webp") center/contain no-repeat;
+  background:url("img/pokedex.webp") center/contain no-repeat;
 }
 
 /* Pokémon dentro do visor */
