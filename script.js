@@ -1,96 +1,96 @@
 const pokemons = [
   {
     nome: "Gengar",
-    imagem: "/img/gengar_pk.webp",
+    imagem: "img/gengar_pk.webp",
     tipo: "Fantasma/Veneno",
     descricao: "Gengar é um Pokémon do tipo Fantasma/Veneno, conhecido por sua aparência sombria e sorriso travesso. Ele adora pregar peças e se esconde nas sombras para assustar seus oponentes. Além disso, possui grande velocidade e ataques especiais poderosos, sendo um dos fantasmas mais icônicos e temidos da franquia."
   },
   {
     nome: "Exeggutor",
-    imagem: "/img/exeggutor.webp",
+    imagem: "img/exeggutor.webp",
     tipo: "Planta/Psíquico",
     descricao: "é um Pokémon dos tipos Planta e Psíquico que se assemelha a uma palmeira ambulante com três cabeças, cada uma com personalidade e pensamento próprios."
   },
   {
     nome: "Magnamite",
-    imagem: "/img/magnamite.webp",
+    imagem: "img/magnamite.webp",
     tipo: "Elétrico/Aço",
     descricao: "As ondas eletromagnéticas emitidas pelas unidades nas laterais de sua cabeça expelem antigravidade, o que permite que ele flutue."
   },
   {
     nome: "charmander",
-    imagem: "/img/charmander.webp",
+    imagem: "img/charmander.webp",
     tipo: "Fogo",
     descricao: "obviamente, prefere lugares quentes. se ele pegar chuva, jorra vapor a ponta da sua cauda."
   },
   {
     nome: "lapras",
-    imagem: "/img/lapras.webp",
+    imagem: "img/lapras.webp",
     tipo: "Água/Ice",
     descricao: "Esses pokemon foi tão caçado, que está à beira da extinção. Ele serve de barca e ajuda pessoas a atravessar rios e oceanos."
   },
   {
     nome: "dratini",
-    imagem: "/img/dratini.webp",
+    imagem: "img/dratini.webp",
     tipo: "Dragão",
     descricao: "Foi considerado Pokemon mitologico até recentemente, quando uma pequena colônia deles foi encontrada vivendo debaixo d'água"
   },
   {
     nome: "Abra",
-    imagem: "/img/Abra.webp",
+    imagem: "img/Abra.webp",
     tipo: "Psíquico",
     descricao: "domina o teletransporte para escapar e surpreender o inimigo. É peça-chave em batalhas inteligentes, vencendo pela mente e não pela força."
   },
   {
     nome: "Squartl",
-    imagem: "/img/squartl.webp",
+    imagem: "img/squartl.webp",
     tipo: "Água",
     descricao: "Seus jatos d'água têm grande impacto, e sua concha funciona como defesa natural. Um parceiro ágil que se adapta a qualquer situação."
   },
   {
     nome: "Primape",
-    imagem: "/img/primeape.webp",
+    imagem: "img/primeape.webp",
     tipo: "Lutador",
     descricao: "Seus golpes ficam cada vez mais fortes conforme perde a calma, tornando-o imprevisível. Um lutador bruto que não recua diante de nada."
   },
   {
     nome: "Eevee ",
-    imagem: "/img/evee.webp",
+    imagem: "img/evee.webp",
     tipo: "normal",
     descricao: "Sua capacidade de evoluir para muitas formas permite que ele se adapte de forma suave e perfeita a qualquer ambiente."
   },
   {
     nome: "Rattata",
-    imagem: "/img/rattata.webp",
+    imagem: "img/rattata.webp",
     tipo: "normal",
     descricao: "Mastiga qualquer coisa com suas presas. Se você vir um, pode ter certeza de que outros 40 vivem na área."
   },
    {
     nome: "Clefairy",
-    imagem: "/img/clefairy.webp",
+    imagem: "img/clefairy.webp",
     tipo: "fada",
     descricao: "Em noites de lua cheia, Clefairy se reúne de todos os lugares e dança. O banho de luar os faz flutuar."
   },
    {
     nome: "Beedrill",
-    imagem: "/img/Beedrill.webp",
+    imagem: "img/Beedrill.webp",
     tipo: "Inseto / Veneno",
     descricao: "Beedrill é feroz e rápido, com agulhas afiadas em seus braços que atacam com precisão. Vive em colmeias e protege ferozmente seu território."
   },
    {
     nome: "Bulbasaur",
-    imagem: "/img/Bulbasaur.webp",
+    imagem: "img/Bulbasaur.webp",
     tipo: "Planta / Veneno",
     descricao: "Bulbasaur tem uma semente nas costas que cresce com ele. Ele absorve energia solar para fortalecer seus ataques e é conhecido por sua lealdade aos treinadores."
   },
    {
     nome: "Onix",
-    imagem: "/img/Onix.webp",
+    imagem: "img/Onix.webp",
     tipo: "Pedra / Terra",
     descricao: "Onix é um enorme Pokémon serpente feito de rochas. Sua força e tamanho o tornam quase impenetrável, mas ele se move surpreendentemente rápido em cavernas e montanhas."
   },
 
-  
+
   
     
 
