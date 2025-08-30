@@ -55,7 +55,7 @@ const pokemons = [
   },
   {
     nome: "Eevee ",
-    imagem: "/img/eevee.webp",
+    imagem: "/img/evee.webp",
     tipo: "normal",
     descricao: "Sua capacidade de evoluir para muitas formas permite que ele se adapte de forma suave e perfeita a qualquer ambiente."
   },
@@ -67,7 +67,7 @@ const pokemons = [
   },
    {
     nome: "Clefairy",
-    imagem: "/img/clarfairy.webp",
+    imagem: "/img/clefairy.webp",
     tipo: "fada",
     descricao: "Em noites de lua cheia, Clefairy se reúne de todos os lugares e dança. O banho de luar os faz flutuar."
   },
