@@ -1,117 +1,92 @@
-
-
-*{
-  box-sizing:border-box
+* {
+  box-sizing: border-box;
 }
-body{
-  margin:0;
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background-image:url("img/fundo_tela.jpg");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/fundo_tela.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /* Área da Pokédex com fundo */
-.pokedex{
-  position:relative;
-  width:600px;
-  height:913px; /* ajuste se sua pokedex.webp tiver outra altura */
-  background:url("img/pokedex.webp") center/contain no-repeat;
+.pokedex {
+  position: relative;
+  width: 600px;
+  height: 913px; /* ajuste se a pokedex.webp tiver outra altura */
+  background: url("img/pokedex.webp") center/contain no-repeat;
 }
 
 /* Pokémon dentro do visor */
-.pokemon{
-  position:absolute;
-  top:250px;   /* ajuste fino */
-  left:130px;  /* ajuste fino */
-  width:340px;
-  height:auto;
-  z-index:2;
-  pointer-events:none; /* clique passa pelos pixels do Pokémon */
+.pokemon {
+  position: absolute;
+  top: 250px;   /* ajuste fino */
+  left: 130px;  /* ajuste fino */
+  width: 340px;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
 }
 
 /* Botões sobre o D-pad */
-.ctrl{
-  position:absolute;
-  width:30px;
-  height:30px;
-  z-index:3;
-  background:rgba(0,0,0,.15); /* deixe visível p/ teste, depois mude p/ opacity:0 */
-  border:none;
-  cursor:pointer;
-}
-.ctrl--left{ 
-  left:55px; 
-  bottom:95px; 
-}
-.ctrl--right{ 
-  left:125px; 
-  bottom:95px; 
+.ctrl {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
 }
 
-/* Responsivo opcional */
-@media (max-width:650px){
-  .pokedex{
-    width:90vw; 
-    height:137vw;
-  }
-  .pokemon{ 
-    top:22%; 
-    left:21.5%; 
-    width:56%; 
-  }
-  .ctrl{ 
-    width:7%; 
-    height:7%; 
-    
-  }
-  .ctrl--left{ 
-    left:26.5%; 
-    bottom:10.5%; 
-    
-  }
-  .ctrl--right{ 
-    left:36.5%; 
-    bottom:10.5%; 
-  }
+.ctrl--left { 
+  left: 55px; 
+  bottom: 95px; 
 }
 
+.ctrl--right { 
+  left: 125px; 
+  bottom: 95px; 
+}
+
+/* Fonte personalizada */
 @font-face {
   font-family: 'PokemonClassic';
   src: url('font/Pokemon Classic.ttf') format('truetype');
 }
+
+/* Nome do Pokémon */
 .nome {
   position: absolute;
   top: 650px;   
   left: 50px;
   width: 350px;
-  color: #000; 
+  color: #000;
   font-family: 'PokemonClassic', monospace;
   text-align: left;
   padding: 8px;
   border-radius: 8px;
 }
-.tipo{
+
+/* Tipo do Pokémon */
+.tipo {
   position: absolute;
   top: 663px;   
   left: 446px;
-  width: 350px;
-  color: #000; 
+  width: 250px;
+  color: #000;
   font-family: 'PokemonClassic', monospace;
-  text-align: left;
+  text-align: end;
   padding: 8px;
   border-radius: 8px;
 }
-p.tipo{
-  width: 250px;
-  left: 310px;
-  text-align:end;
 
-}
-.descricao{
+/* Descrição do Pokémon */
+.descricao {
   position: absolute;
   width: 350px;
   color: #000; 
@@ -120,16 +95,17 @@ p.tipo{
   padding: 8px;
   border-radius: 8px;
 }
-p.descricao{
-  
-  overflow-y: scroll;
+
+p.descricao {
+  overflow-y: auto;
   width: 265px;
   height: 122px;
   left: 187px;
-  top:725px;
+  top: 725px;
   margin-bottom: 100px;
-  
 }
+
+/* Scroll transparente */
 .descricao::-webkit-scrollbar {
   width: 1px;
 }
@@ -139,6 +115,59 @@ p.descricao{
 }
 
 .descricao::-webkit-scrollbar-thumb {
-  background: transparent; /* transparente totalmente */
+  background: transparent;
   border-radius: 4px;
+}
+
+/* ==========================
+   Responsividade para celular
+=========================== */
+@media (max-width: 650px) {
+  .pokedex {
+    width: 90vw;
+    height: 137vw;
+  }
+
+  .pokemon {
+    top: 22%;
+    left: 21.5%;
+    width: 56%;
+  }
+
+  .ctrl {
+    width: 7%;
+    height: 7%;
+  }
+
+  .ctrl--left {
+    left: 26.5%;
+    bottom: 10.5%;
+  }
+
+  .ctrl--right {
+    left: 36.5%;
+    bottom: 10.5%;
+  }
+
+  .nome {
+    top: 70%;
+    left: 8%;
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .tipo {
+    top: 71%;
+    left: 55%;
+    width: 35%;
+    font-size: 1rem;
+  }
+
+  p.descricao {
+    top: 77%;
+    left: 15%;
+    width: 70%;
+    height: 15%;
+    font-size: 0.9rem;
+  }
 }
