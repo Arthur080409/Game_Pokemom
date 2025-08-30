@@ -37,7 +37,7 @@ const pokemons = [
   },
   {
     nome: "Abra",
-    imagem: "img/abra.webp",
+    imagem: "img/Abra.webp",
     tipo: "Psíquico",
     descricao: "Domina o teletransporte para escapar e surpreender o inimigo. É peça-chave em batalhas inteligentes, vencendo pela mente e não pela força."
   },
@@ -73,7 +73,7 @@ const pokemons = [
   },
   {
     nome: "Beedrill",
-    imagem: "img/beedrill.webp",
+    imagem: "img/Beedrill.webp",
     tipo: "Inseto/Veneno",
     descricao: "Beedrill é feroz e rápido, com agulhas afiadas em seus braços que atacam com precisão. Vive em colmeias e protege ferozmente seu território."
   },
@@ -85,7 +85,7 @@ const pokemons = [
   },
   {
     nome: "Onix",
-    imagem: "img/onix.webp",
+    imagem: "img/Onix.webp",
     tipo: "Pedra/Terra",
     descricao: "Onix é um enorme Pokémon serpente feito de rochas. Sua força e tamanho o tornam quase impenetrável, mas ele se move surpreendentemente rápido em cavernas e montanhas."
   }
